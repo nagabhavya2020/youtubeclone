@@ -132,7 +132,7 @@ function VideoPage() {
               <>
                 <div className="react-player-container">
                   <ReactPlayer
-                    url={`http://youtubeclone-client.vercel.app/${
+                    url={`https://youtubeclone-mocha.vercel.app//${
                       vv?.[`filePath_${selectedQuality}`]
                     }`}
                     className={"video_ShowVideo_videoPage"}
