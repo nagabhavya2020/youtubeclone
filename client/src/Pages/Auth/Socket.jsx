@@ -15,7 +15,7 @@ export const  SocketContextProvider = ({children }) => {
     const dispatch = useDispatch();
     
     useEffect(()=>{
-        const socket = io("http://localhost:5500")
+        const socket = io("http://youtubeclone-mocha.vercel.app")
         socket.on('newVideo',(newVideo)=>{
             dispatch(updateVideoList(newVideo));
             console.log("newVideo:",newVideo);
