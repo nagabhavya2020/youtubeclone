@@ -1,0 +1,60 @@
+
+.SinUpContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background-color: rgb(33, 33, 33);
+
+}
+
+.inputcontainer{
+
+}
+
+.inputcontainer label{
+display: block;
+color: white;
+margin-top: .9rem;
+font-weight: 600;
+}
+
+.inputcontainer input{
+display: block;
+padding: 1em;
+margin-bottom: 7px;
+border-radius: 5em;
+color: white;
+margin-top: 7px;
+width: 100%;
+background-color: rgb(33, 33, 33);
+
+}
+
+.btn{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: .5rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: white;
+    border: 2px sloid black;
+    font-size: large;
+
+}
+
+.btn:hover{
+    transition:0.2sec;
+    background-color: rgb(59, 59, 233);
+    
+}
+
+.SignUp{
+width: 400px;
+
+}
+
+.SignUp h1{
+    text-align: center;
+}
