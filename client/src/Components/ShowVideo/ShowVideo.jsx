@@ -11,7 +11,7 @@ function ShowVideo({vid}) {
     <>
     <Link to={`/videopage/${vid?._id}`} >
         {/* //`http://localhost:5500/${vid.filePath}`}  */}
-        <video src={`http://youtubeclone-mocha.vercel.app/${vid.filePath}`} className='video_ShowVideo'
+        <video src={`http://youtubeclone-client.vercel.app/${vid.filePath}`} className='video_ShowVideo'
             />
     </Link>
   
