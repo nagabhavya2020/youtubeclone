@@ -1,5 +1,5 @@
 import axios from "axios"
-const API = axios.create({baseURL : `http://youtubeclone-client.vercel.app/`})
+const API = axios.create({baseURL : `https://youtubeclone-mocha.vercel.app//`})
 
 API.interceptors.request.use(req=>{
     if(localStorage.getItem('Profile')){
